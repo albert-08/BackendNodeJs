@@ -98,5 +98,6 @@ function query(table, query, join) {
 module.exports = {
   list,
   get,
-  upsert
+  upsert,
+  query
 }
